@@ -5,6 +5,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import Project1 from "../styles/Project1.PNG";
 
 
 export default function ImagMediaCard() {
@@ -13,7 +14,7 @@ export default function ImagMediaCard() {
       <CardMedia
         component="img"
         height="140"
-        image="../styles/background.jpg"
+        image={Project1}
         alt="Navigation App"
       />
       <CardContent>

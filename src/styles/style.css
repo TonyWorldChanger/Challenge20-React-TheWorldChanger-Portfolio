@@ -16,7 +16,23 @@ body {
     font-size: 3rem;
   }
 
-  
+
+  .typewriter {
+    font-size: 55px;
+    color: black;
+}
+
+.aboutMe {
+  font-size: 28px;
+  color: black;
+  position: center;
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root {
+  background-color: black;
+  background-image:url(../styles/background.jpg);
+    background-size: cover;
+}
   
 
   
