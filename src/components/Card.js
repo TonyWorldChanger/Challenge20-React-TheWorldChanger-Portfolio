@@ -13,13 +13,13 @@ export default function ImagMediaCard() {
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
-        height="140"
+        height="180"
         image={Project1}
         alt="Navigation App"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Project 1
+          Navigation App
         </Typography>
         <Typography variant="body2" color="text.secondary">
           This project was the first javascript project I've ever done. 
