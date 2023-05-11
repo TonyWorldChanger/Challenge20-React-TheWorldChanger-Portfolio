@@ -26,15 +26,15 @@ function App() {
             />
              <ProjectCard 
                 image={Project2} 
-                projectTitle="Navigation App" 
-                projectDescription="This project was the first javascript project I've ever done. " 
+                projectTitle="Best Of Sum" 
+                projectDescription="This project was the first javascript project I've ever done built using handlebars and routes to connect to the html. " 
                 shareUrl="https://github.com/NTumminaro/Sum-Of-Best" 
                 learnUrl="https://github.com/TonyWorldChanger"
             />
              <ProjectCard 
                 image={Project3} 
-                projectTitle="Navigation App" 
-                projectDescription="This project was the first javascript project I've ever done. " 
+                projectTitle="Insomnia" 
+                projectDescription="This project was the first time builde the back end and connecting to a server that I created! " 
                 shareUrl="https://github.com/TonyWorldChanger/Challenge13-E-Commerce_BackEnd" 
                 learnUrl="https://github.com/TonyWorldChanger"
             />

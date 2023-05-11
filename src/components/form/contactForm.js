@@ -20,7 +20,7 @@ function ContactForm() {
                 gap: 16,
                 maxWidth: 400,
                 margin: 'auto',
-                padding: 16,
+                padding: 50,
                 borderRadius: 8,
                 boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.1)',
               }}

@@ -10,6 +10,7 @@ import Typography from '@mui/material/Typography';
 
 export default function ProjectCard({image, projectTitle, projectDescription, shareUrl, learnUrl}) {
   return (
+    <div className="card">
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
         component="img"
@@ -19,10 +20,10 @@ export default function ProjectCard({image, projectTitle, projectDescription, sh
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          Navigation App {projectTitle}
+           {projectTitle}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-          This project was the first javascript project I've ever done. {projectDescription}
+        {projectDescription}
         </Typography>
       </CardContent>
       <CardActions>
@@ -30,6 +31,7 @@ export default function ProjectCard({image, projectTitle, projectDescription, sh
         <Button size="small" href={learnUrl}>Learn More</Button>
       </CardActions>
     </Card>
+    </div>
   );
 }
 

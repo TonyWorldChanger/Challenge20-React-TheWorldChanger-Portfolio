@@ -37,6 +37,11 @@ body {
   position: center;
 }
 
+.card {
+  display: inline-block;
+  padding-left: 100px;
+}
+
 .css-1ri6ub7-MuiPaper-root-MuiCard-root {
   margin-left: 20px;
 }
@@ -47,9 +52,6 @@ body {
     background-size: cover;
 }
 
-form {
-  font-style: italic;
-}
 
 .css-1u3bzjs-MuiFormControl-root-MuiTextField-root {
   padding-top: 75px;
@@ -58,7 +60,7 @@ form {
 }
   
 
-  
+
 
   .footer {
     position: fixed;
